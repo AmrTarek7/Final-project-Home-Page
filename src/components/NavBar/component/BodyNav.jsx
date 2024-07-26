@@ -2,47 +2,30 @@
 import React from "react";
 import Logo from "../../../assets/Logo/Logo.png";
 import { Dropdown } from "flowbite-react";
-
+// import { FcSearch } from "react-icons/fc";
+import { BsSearch } from "react-icons/bs";
 
 function BodyNav() {
   return (
-    <section className="bg-[#913b10]">
-      <div className="container flex justify-evenly items-center border-white border-b-[1px] pb-3 py-1">
-        <div>
-          <form className="max-w-md mx-auto">
-            <div className="flex">
-              <button type="button">
-                <svg
-                  className="w-4 h-4 text-[#F7ECDB] dark:text-gray-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-                  />
-                </svg>
-              </button>
-              {/* <!--mini.css من ملف  [type="search"]:focus,  يجب مسح  flowbite الخاص بـ  css  ملحوظة عن استخدام --> */}
-              <input
-                type="search"
-                id="default-search"
-                className="block w-[13rem] h-[100%] text-sm text-white border border-none rounded-lg  bg-transparent dark:bg-transparent placeholder-[#F7ECDB] placeholder-opacity-70 dark:placeholder-[#F7ECDB] dark:text-white focus:outline-none focus:border-none "
-                style={{ outline: "none" }}
-                placeholder="What are you looking for?"
-                required
-              />
-            </div>
-          </form>
+    <section className="bg-[#913b10] ">
+      <div className="container flex flex-wrap justify-center sm:justify-evenly  items-center border-white border-b-[1px] pb-0 py-1">
+        <div className="flex  items-end content-end sm:hidden md:flex pt-5 sm:pt-0">
+          <div>
+            <BsSearch className="text-xl text-white cursor-pointer" />
+          </div>
+          <div>
+            <input
+              type="search"
+              name=""
+              id=""
+              placeholder="Search "
+              className="h-7 ms-2 bg-transparent border-l-0 border-t-0 border-r-0 focus:ring-0 focus:border-black text-white placeholder:text-white placeholder:font-light placeholder:text-sm"
+            />
+          </div>
         </div>
 
         {/* <!-- Website LOGO --> */}
-        <div>
+        <div className="ps-5 md:ps-0  pe-5 sm:pe-0" >
           <a href="#!">
             <img className="" src={Logo} alt="" />
           </a>
@@ -52,8 +35,8 @@ function BodyNav() {
 
         <div>
           {/* <!-- drop down languge --> */}
-          <div>
-            <Dropdown label="Egypt (Ar)" inline className="text-white bg-white">
+          <div className=" text-white pb-5 sm:pb-0">
+            <Dropdown label="Egypt (Ar)" inline>
               <Dropdown.Item>Egypt (Ar)</Dropdown.Item>
               <Dropdown.Item>England (En)</Dropdown.Item>
               <Dropdown.Item>France (Fr)</Dropdown.Item>

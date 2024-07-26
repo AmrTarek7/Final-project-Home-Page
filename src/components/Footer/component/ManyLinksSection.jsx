@@ -3,7 +3,7 @@ import React from "react";
 
 function ManyLinksSection() {
   return (
-    <div className="grid grid-cols-1 ms-8 pb-5">
+    <div className="grid grid-cols-1 sm:ms-8  pb-5">
       <h6 className="text-white text-base font-lora font-semibold pb-5">
         POPULAR SEARCHES
       </h6>
@@ -174,7 +174,6 @@ function ManyLinksSection() {
             Wallets Tops
           </a>
         </div>
- 
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ import ThreeTestimonails from "./component/ThreeTestimonails";
 function Testimonials() {
   return (
     <div className="h-100 mt-8 ">
-      <div className="h-100 flex container">
+      <div className="h-100 flex container ">
         <Carousel slide={false}>
           <ThreeTestimonails />
           <ThreeTestimonails />

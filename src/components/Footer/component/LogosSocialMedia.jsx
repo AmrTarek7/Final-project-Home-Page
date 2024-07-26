@@ -9,7 +9,7 @@ import "./css/LogoSocialmedia.modules.css";
 
 function logosSocialMedia() {
   return (
-    <div className=" ms-8 xl:ms-0 pb-9 xl:pb-0 pt-0 ">
+    <div className=" sm:ms-8 xl:ms-0 pb-9 xl:pb-0 pt-0 ">
       <div>
         <h6 className="text-white text-base font-lora font-semibold pb-5">
           Experience Mobile App

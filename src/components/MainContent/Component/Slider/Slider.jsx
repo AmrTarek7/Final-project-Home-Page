@@ -8,7 +8,7 @@ import img3 from "../../../../assets/imges/imgSlider3.jpg";
 function Slider() {
   return (
     <div className="h-[80vh]">
-      <Carousel slide={false}>
+      <Carousel slide={5000}>
         <img src={img3} alt="..." />
         <img src={img2} alt="..." />
         <img src={img1} alt="..." />

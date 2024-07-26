@@ -5,7 +5,7 @@ import Originalicon from "../../../assets/imges/Originalicon.svg";
 
 function OrignalLogoSection() {
   return (
-    <div className="mt-8 2xl:mt-0 ms-8 2xl:ms-0 pb-9 md:pb-0 ">
+    <div className="sm:ms-8 mt-8 2xl:mt-0 2xl:ms-0 pb-9 md:pb-0 ">
       <div className="flex">
         <img src={Originalicon} alt="" className="pe-3 w-16" />
         <div>

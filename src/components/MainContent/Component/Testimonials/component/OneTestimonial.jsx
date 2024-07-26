@@ -6,7 +6,7 @@ import { Rating } from "flowbite-react";
 // eslint-disable-next-line react/prop-types
 function OneTestimonial({ name }) {
   return (
-    <blockquote className="rounded-lg bg-transparent p-6 shadow-sm sm:p-8">
+    <blockquote className="rounded-lg bg-transparent p-6 shadow-sm mb-10 md:mb-0">
       <div className="flex items-center gap-4">
         <img
           alt=""

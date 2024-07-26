@@ -3,7 +3,7 @@ import React from "react";
 
 function LinksG2() {
   return (
-    <div className=" ms-8 md:ms-0 pb-9 md:pb-0 ">
+    <div className=" sm:ms-8 md:ms-0 pb-9 md:pb-0 pt-8 md:pt-0 ">
       <h6 className="text-white text-base font-lora font-semibold pb-5 ">
         CUSTOMER POLICIES
       </h6>

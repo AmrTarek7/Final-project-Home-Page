@@ -3,13 +3,13 @@ import React from "react";
 
 function Copyrite() {
   return (
-    <div className="ms-8 flex justify-between border-t-[1px] pt-4">
+    <div className="sm:ms-8 flex justify-between border-t-[1px] pt-4">
       <div>
         <p className="text-sm text-white">
           In case of any concern,
-            <a href="#!" className="hover:text-slate-300 ps-2">
-              Contact Us
-            </a>
+          <a href="#!" className="hover:text-slate-300 ps-2">
+            Contact Us
+          </a>
         </p>
       </div>
       <div className="text-sm text-white">

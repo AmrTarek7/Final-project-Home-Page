@@ -2,6 +2,7 @@
 import React from "react";
 import Title from "./component/Title/Title";
 import SmallC from "./component/Smallc/SmallC";
+import { Button } from "flowbite-react";
 
 function CollectionCard() {
   return (
@@ -9,10 +10,10 @@ function CollectionCard() {
       <div className=" container">
         <Title />
         <SmallC />
-        <div className=" flex flex-col items-center pb-9">
-          <button className="text-1xl text-white py-2 px-7 mt-7 bg-green-600 hover:bg-green-800 rounded-md ">
-            View All
-          </button>
+        <div className=" flex flex-col items-center py-9">
+          <Button className="bg-green-500 enabled:hover:bg-green-800 focus:outline-green-500 px-8">
+           View All
+          </Button>
         </div>
       </div>
     </section>

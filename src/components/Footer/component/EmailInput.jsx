@@ -3,7 +3,7 @@ import React from "react";
 
 function EmailInput() {
   return (
-    <div className="mt-8 2xl:mt-0 ms-8 xl:ms-0">
+    <div className="sm:ms-8 mt-8 2xl:mt-0 xl:ms-0">
       <div className="">
         <h6 className="text-white text-lg font-lora font-semibold ">Join Us</h6>
 

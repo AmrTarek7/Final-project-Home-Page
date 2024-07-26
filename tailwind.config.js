@@ -21,10 +21,10 @@ export default {
         lora: ['"Lora", serif'],
         Rosario: ['"Rosario", sans-serif'],
       },
-      color: {
-        
-        
-      }
+      colors: {
+        transAmr:
+          "border-none bg-transparent text-white focus:border-none focus:ring-none dark:border-none dark:bg-transparent dark:text-white dark:placeholder-white dark:focus:border-none dark:focus:white",
+      },
     },
   },
   plugins: [flowbite.plugin()],

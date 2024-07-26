@@ -3,7 +3,7 @@ import React from "react";
 
 function LinksG1() {
   return (
-    <div className="ms-8 grid grid-cols-2 md:grid-cols-1">
+    <div className="sm:ms-8 grid grid-cols-2 md:grid-cols-1">
       <div>
         <h6 className="text-white text-base font-lora font-semibold pb-5">
           ONLINE SHOPPING
