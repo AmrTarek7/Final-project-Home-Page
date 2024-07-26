@@ -7,7 +7,7 @@ function LinksG2() {
       <h6 className="text-white text-base font-lora font-semibold pb-5 ">
         CUSTOMER POLICIES
       </h6>
-      <ul className="text-white text-sm leading-8">
+      <ul className="text-white text-sm leading-4">
         <a href="#!" className="hover:underline hover:text-slate-300 ">
           <li>Contact Us</li>
         </a>

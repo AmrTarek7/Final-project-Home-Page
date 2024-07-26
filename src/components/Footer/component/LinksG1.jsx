@@ -8,7 +8,7 @@ function LinksG1() {
         <h6 className="text-white text-base font-lora font-semibold pb-5">
           ONLINE SHOPPING
         </h6>
-        <ul className="text-white text-sm font-medium leading-8">
+        <ul className="text-white text-sm font-medium leading-4">
           <a href="#!" className="hover:underline hover:text-slate-300 ">
             <li>Men</li>
           </a>
@@ -35,7 +35,7 @@ function LinksG1() {
         <h6 className="text-white text-base font-lora font-semibold pt-0 md:pt-7 pb-5">
           USEFUL LINKS
         </h6>
-        <ul className="text-white text-sm leading-8">
+        <ul className="text-white text-sm leading-4">
           <a href="#!" className="hover:underline hover:text-slate-300 ">
             <li>Blog</li>
           </a>
